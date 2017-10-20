@@ -13,11 +13,6 @@ google_maps_javascript_api_key:
 # Build settings
 markdown: kramdown
 
-permalink: pretty
-
-gems:
-  - jekyll-seo-tag
-
 exclude:
   - Gemfile
   - Gemfile.lock
