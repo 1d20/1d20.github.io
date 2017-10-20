@@ -1,0 +1,25 @@
+# Site settings
+title: 1d20 Development
+description: Web Development Company
+brand: 1d20
+email: 1d20dev@gmail.com
+twitter_username: 1d20dev
+github_username: 1d20
+url: "https://1d20.github.io"
+baseurl:
+google_analytics_key:
+google_maps_javascript_api_key:
+
+# Build settings
+markdown: kramdown
+
+permalink: pretty
+
+gems:
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
