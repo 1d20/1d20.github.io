@@ -4,11 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-(function($) {
+(function ($) {
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
-    $('a.page-scroll').bind('click', function(event) {
+    $('a.page-scroll').bind('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: ($($anchor.attr('href')).offset().top - 50)
@@ -23,7 +23,7 @@
     })
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function() {
+    $('.navbar-collapse ul li a').click(function () {
         $('.navbar-toggle:visible').click();
     });
 
@@ -44,5 +44,44 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
+
+    var app = document.getElementById('typewriter');
+    var jlobs = [
+        'Digital',
+        'Desired',
+        'Dedicated',
+        'Decision',
+        'Deployment',
+
+        'Durable',
+        'Delivery',
+        'Discovery',
+        'Discussion',
+        'Dream',
+        'Dragon',
+        'Diversity',
+        'Drive',
+        'Dominate',
+        'Dynamic',
+        'Dexterous',
+        'Deal',
+        'Different',
+        'Duty'
+    ];
+
+    var typewriter = new Typewriter(app, {
+        loop: true,
+        strings: jlobs,
+        autoStart: true
+    });
+
+    /*typewriter
+     /!*.pauseFor(2500)
+     .deleteAll()
+     .typeString('Strings can be removed')
+     .pauseFor(2500)
+     .deleteChars(7)
+     .typeString('altered!')*!/
+     .start();*/
 
 })(jQuery); // End of use strict
