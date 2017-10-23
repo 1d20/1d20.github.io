@@ -42,8 +42,39 @@ $theme-dark: #222;
 "base";
 
 .icons {
-    i {
-        font-size: 5em;
-        color: rgba(240, 95, 64, 0.9);
+    .icon-block {
+        margin-bottom: 5em;
+        i {
+            transition: all 0.35s;
+            font-size: 10em;
+            //color: rgba(240, 95, 64, 0.9);
+        }
+        /*&:hover {
+                transition: all 0.35s;
+            i {
+                font-size: 12em;
+            }
+            margin-bottom: 3em;
+        }*/
+
+    }
+}
+
+.portfolio-box {
+    .portfolio-box-caption {
+        &:hover {
+            opacity: .5;
+        }
+        .portfolio-box-caption-content {
+            top: 90%;
+            .project-category {
+                &.text-faded {
+
+                }
+            }
+            .project-name {
+
+            }
+        }
     }
 }
