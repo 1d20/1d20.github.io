@@ -47,26 +47,26 @@
 
     var app = document.getElementById('typewriter');
     var jlobs = [
-        'Digital',
-        'Desired',
-        'Dedicated',
-        'Decision',
-        'Deployment',
+        'igital',
+        'esired',
+        'edicated',
+        'ecision',
+        'eployment',
 
-        'Durable',
-        'Delivery',
-        'Discovery',
-        'Discussion',
-        'Dream',
-        'Dragon',
-        'Diversity',
-        'Drive',
-        'Dominate',
-        'Dynamic',
-        'Dexterous',
-        'Deal',
-        'Different',
-        'Duty'
+        'urable',
+        'elivery',
+        'iscovery',
+        'iscussion',
+        'ream',
+        'ragon',
+        'iversity',
+        'rive',
+        'ominate',
+        'ynamic',
+        'exterous',
+        'eal',
+        'ifferent',
+        'uty'
     ];
 
     var typewriter = new Typewriter(app, {
