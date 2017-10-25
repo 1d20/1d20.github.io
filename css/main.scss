@@ -60,6 +60,13 @@ $theme-dark: #222;
     }
 }
 
+.portfolio {
+    .portfolio-box {
+        max-width: 1280px;
+        margin: 1em;
+    }
+}
+
 .portfolio-box {
     .portfolio-box-caption {
         &:hover {
