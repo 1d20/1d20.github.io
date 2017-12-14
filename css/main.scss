@@ -60,6 +60,17 @@ $theme-dark: #222;
     }
 }
 
+.navbar-brand {
+    padding: 7px 10px;
+    .page-scroll {
+        display: inline-block;
+    }
+    img {
+        display: inline-block;
+        height: 35px;
+    }
+}
+
 .portfolio {
     .portfolio-box {
         max-width: 1280px;
@@ -86,7 +97,6 @@ $theme-dark: #222;
     }
 }
 
-
 /*
  * ==== hexagon
  */
@@ -97,10 +107,12 @@ $theme-dark: #222;
     width: 300px;
     height: 300px;
 }
+
 .hexa {
     width: 425px;
     height: 330px;
 }
+
 .hexa div {
     width: 100%;
     height: 100%;
@@ -112,12 +124,15 @@ $theme-dark: #222;
     margin-left: auto;
     margin-right: auto;
 }
+
 .hexa {
     transform: rotate(120deg);
 }
+
 .hex1 {
     transform: rotate(-60deg);
 }
+
 .hex2 {
     transform: rotate(-60deg);
 }
