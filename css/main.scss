@@ -60,18 +60,6 @@ $theme-dark: #222;
     }
 }
 
-.navbar-brand {
-    padding: 7px 10px;
-    .page-scroll {
-        display: inline-block;
-    }
-    img {
-        display: inline-block;
-        height: 35px;
-    }
-}
-
-
 .portfolio {
     .portfolio-box {
         max-width: 1280px;
@@ -138,4 +126,17 @@ $theme-dark: #222;
     transform: rotate(-60deg);
 }
 
+
+.navbar-brand {
+    padding: 7px 10px;
+
+    .page-scroll {
+        display: inline-block;
+    }
+
+    img {
+        display: inline-block;
+        height: 35px;
+    }
+}
 
